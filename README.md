@@ -1,4 +1,14 @@
-<div class="title-row"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCM News — Table 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="title-row">Table 1</div>
 <table class="tbl">
   <thead>
     <tr>
@@ -45,7 +55,7 @@
     </tr>
     <tr>
       <td class="label"><b>Key Interactive Feature 4</b></td>
-      <td>Clickable Adverisments</td>
+      <td>Clickable advertisments</td>
     </tr>
   </tbody>
 </table>
