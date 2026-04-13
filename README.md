@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="title-row">Table 1</div>
+<div class="title-row"></div>
 <table class="tbl">
   <thead>
     <tr>
