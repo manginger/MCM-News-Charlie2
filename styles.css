@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+          background-color: rgb(129, 29, 29);
+          color: white;
+          text-align: center;
+          padding: 15px 30px;
+          font-size: 14px;
+}
