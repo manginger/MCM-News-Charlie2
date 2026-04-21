@@ -21,7 +21,7 @@
     </tr>
     <tr>
       <td class="label">App Type</td>
-      <td>>News Site</td>
+      <td>News Site</td>
     </tr>
     <tr>
       <td class="label"><b>Problem It Solves</b></td>
