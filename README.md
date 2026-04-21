@@ -33,7 +33,9 @@
     </tr>
     <tr>
       <td class="label"><b>Page 2 — Name &amp;<br>Description</b></td>
-      <td>Search Page - Has a number of search criteria, and shows results when searched.</td>
+      <td>Search Page - Has a number of search criteria, and shows results when searched. <br>
+        https://manginger.github.io/MCM-News-Charlie2/Search.html
+      </td>
     </tr>
     <tr>
       <td class="label"><b>Page 3 — Name &amp;<br>Description</b></td>
