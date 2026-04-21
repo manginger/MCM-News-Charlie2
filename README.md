@@ -17,11 +17,11 @@
   <tbody>
     <tr>
       <td class="label">App Name</td>
-      <td>MCM News</td>
+      <td><a href="docs/explanation.html">MCM News</a></td>
     </tr>
     <tr>
       <td class="label">App Type</td>
-      <td><iframe src="https://manginger.github.io/MCM-News-Charlie2/index.html" width="100%" height="400" title="News Site"></iframe></td>
+      <td><a href="index.html">News Site</td>
     </tr>
     <tr>
       <td class="label"><b>Problem It Solves</b></td>
