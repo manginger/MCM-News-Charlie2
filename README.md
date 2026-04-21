@@ -17,7 +17,7 @@
   <tbody>
     <tr>
       <td class="label">App Name</td>
-      <td><a href="index.html">MCM News</a></td>
+      <td><a href="https://manginger.github.io/MCM-News-Charlie2/index.html">MCM News</a></td>
     </tr>
     <tr>
       <td class="label">App Type</td>
