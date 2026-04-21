@@ -1,1 +1,8 @@
-
+.tbl { width: 100%; border-collapse: collapse; font-size: 14px; }
+.tbl th { background: #1a3f6f; color: #fff; text-align: left; padding: 10px 14px; font-weight: 500; }
+.tbl td { padding: 14px; vertical-align: top; border: 1px solid #ccc; }
+.tbl tr:nth-child(odd) td { background: #f5f5f5; }
+.tbl tr:nth-child(even) td { background: #fff; }
+.tbl .label { font-family: monospace; font-size: 13px; width: 170px; }
+.tbl .hint { font-family: monospace; font-size: 13px; color: #aaa; font-style: italic; }
+.title-row { text-align: right; color: #1a3f6f; font-size: 15px; font-weight: 500; margin-bottom: 6px; }

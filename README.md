@@ -1,4 +1,12 @@
-<div class="title-row"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
 <table class="tbl">
   <thead>
     <tr>
@@ -45,7 +53,7 @@
     </tr>
     <tr>
       <td class="label"><b>Key Interactive Feature 4</b></td>
-      <td>Clickable Adverisments</td>
+      <td>Clickable advertisments</td>
     </tr>
   </tbody>
 </table>
