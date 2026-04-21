@@ -21,7 +21,7 @@
     </tr>
     <tr>
       <td class="label">App Type</td>
-      <td>News Site</td>
+      <td><iframe src="https://manginger.github.io/MCM-News-Charlie2/index.html" width="100%" height="400" title="News Site"></iframe></td>
     </tr>
     <tr>
       <td class="label"><b>Problem It Solves</b></td>
@@ -33,8 +33,7 @@
     </tr>
     <tr>
       <td class="label"><b>Page 2 — Name &amp;<br>Description</b></td>
-      <td>Search Page - Has a number of search criteria, and shows results when searched. <br>
-        https://manginger.github.io/MCM-News-Charlie2/Search.html
+      <td>Search Page - Has a number of search criteria, and shows results when searched.
       </td>
     </tr>
     <tr>
