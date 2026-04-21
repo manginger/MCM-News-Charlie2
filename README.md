@@ -17,11 +17,11 @@
   <tbody>
     <tr>
       <td class="label">App Name</td>
-      <td><a href="docs/explanation.html">MCM News</a></td>
+      <td><a href="index.html">MCM News</a></td>
     </tr>
     <tr>
       <td class="label">App Type</td>
-      <td><a href="index.html">News Site</td>
+      <td>>News Site</td>
     </tr>
     <tr>
       <td class="label"><b>Problem It Solves</b></td>
