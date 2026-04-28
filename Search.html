@@ -1,51 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>LHA</title>
-          <link rel="stylesheet" href="Search.css">
+  <title>MCM News</title>
+  <link rel="stylesheet" href="css/Search.css">
 </head>
 
-
 <body>
-          <nav class="navbar">
-                    <div class="logo"><img src="ttu.png" alt="Texas Tech Logo" width="100" height="100"></div>
 
-                    <section class="navlinksMid">
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://www.ttu.edu/traditions/images/DoubleT.gif" alt="Texas Tech Logo" width="100" height="100">
+    </div>
 
-                              <button>⚙️</button>
-                              <button>Search</button>
-                    </section>
+    <section class="navlinksMid">
+      <div class="cog-wrapper">
+        <button id="cogBtn">⚙️</button>
+        <div class="cog-dropdown" id="cogDropdown">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="politics">🏛️ Politics</button>
+          <button class="filter-btn" data-filter="sports">🏈 Sports</button>
+          <button class="filter-btn" data-filter="technology">💻 Technology</button>
+        </div>
+      </div>
+      <button>Search</button>
+    </section>
 
+    <section class="home">
+      <button onclick="window.location.href='index.html'">Home</button>
+    </section>
+  </nav>
 
-                    <section class="home">
-                              <button>Home</button>
-                    </section>
+  <main>
 
-          </nav>
+    <br>
 
+    <article data-category="politics"
+             onclick="window.open('https://www.npr.org/2026/04/27/nx-s1-5801423/white-house-correspondents-dinner-shooting-suspect-charged', '_blank')">
+      <h2>Shooting Suspect at White House Correspondents' Dinner to Be Formally Charged</h2>
+      <p>A gunman identified as Cole Tomas Allen, 31, of Torrance, California, charged a security
+         checkpoint at the Washington Hilton during the annual White House Correspondents' Dinner,
+         exchanging fire with Secret Service before being subdued. President Trump and senior
+         officials were evacuated from the ballroom. Allen now faces federal charges including
+         attempting to assassinate the president, which carries a potential life sentence.</p>
+      <small>NPR Politics &middot; April 27, 2026</small>
+    </article>
 
-<main>
-          
-<br>
+    <br>
 
-<article>
-          <h2>Article 1</h2>
-          <p>This is the first article</p>
-</article>
+    <article data-category="sports"
+             onclick="window.open('https://www.cbssports.com/nba/news/2026-nba-playoff-bracket-matchups-schedule/', '_blank')">
+      <h2>Celtics Rout 76ers 128-96 to Take 3-1 Playoff Series Lead</h2>
+      <p>The Boston Celtics dominated Philadelphia in Game 4, powered by Payton Pritchard's
+         32-point performance off the bench. Despite Joel Embiid returning from a seven-game
+         absence due to an appendectomy, the Sixers were never in the game as Boston controlled
+         from the opening tip. The Celtics now need just one more win to advance to the second
+         round of the 2026 NBA Playoffs.</p>
+      <small>CBS Sports &middot; April 27, 2026</small>
+    </article>
 
-<br>
+    <br>
 
-<footer class="footer">
-          <h2>Information</h2>
+    <article data-category="technology"
+             onclick="window.open('https://techstartups.com/2026/04/27/top-tech-news-today-april-27-2026/', '_blank')">
+      <h2>Google Launches 8th-Gen TPUs Split Into Dedicated Training and Inference Chips</h2>
+      <p>Google Cloud unveiled its eighth-generation Tensor Processing Units, dividing the
+         architecture into two specialized chips: the TPU 8t for large-scale AI model training
+         and the TPU 8i optimized for high-volume inference workloads. The inference chip delivers
+         faster response times and better energy efficiency for running AI in production.
+         Bloomberg reports the chips are already deployed across Google's data centers.</p>
+      <small>Tech Startups &middot; April 27, 2026</small>
+    </article>
 
-          <p>MCM News©</p>
-</footer>
+    <br>
 
+  </main>
 
-</main>
+  <footer class="footer">
+    <h2>Information</h2>
+    <p>MCM News&copy;</p>
+  </footer>
 
+  <script>
+    // Cog dropdown toggle
+    var cogBtn = document.getElementById('cogBtn');
+    var cogDropdown = document.getElementById('cogDropdown');
+
+    cogBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      cogDropdown.classList.toggle('open');
+    });
+
+    document.addEventListener('click', function() {
+      cogDropdown.classList.remove('open');
+    });
+
+    // Category filter
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+
+        document.querySelectorAll('.filter-btn').forEach(function(b) {
+          b.classList.remove('active');
+        });
+        btn.classList.add('active');
+
+        var filter = btn.dataset.filter;
+
+        document.querySelectorAll('article').forEach(function(article) {
+          if (filter === 'all' || article.dataset.category === filter) {
+            article.style.display = '';
+          } else {
+            article.style.display = 'none';
+          }
+        });
+
+        cogDropdown.classList.remove('open');
+      });
+    });
+  </script>
 
 </body>
 </html>
