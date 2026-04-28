@@ -17,7 +17,7 @@
   <tbody>
     <tr>
       <td class="label">App Name</td>
-      <td>MCM News</td>
+      <td><a href="https://manginger.github.io/MCM-News-Charlie2/index.html">MCM News</a></td>
     </tr>
     <tr>
       <td class="label">App Type</td>
@@ -33,7 +33,8 @@
     </tr>
     <tr>
       <td class="label"><b>Page 2 — Name &amp;<br>Description</b></td>
-      <td>Search Page - Has a number of search criteria, and shows results when searched.</td>
+      <td>Search Page - Has a number of search criteria, and shows results when searched.
+      </td>
     </tr>
     <tr>
       <td class="label"><b>Page 3 — Name &amp;<br>Description</b></td>

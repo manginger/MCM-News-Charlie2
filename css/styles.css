@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.search-input {
+    width: 300px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #ff0000;
+}
+
+.search-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn-back:hover {
+    background-color: #333;
+}
+
+.btn-edit {
+    padding: 8px 16px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #cc0000;
+}
+
+.btn-delete {
+    padding: 8px 16px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #000;
+}
+
+.footer {
+          background-color: rgb(129, 29, 29);
+          color: white;
+          text-align: center;
+          padding: 15px 30px;
+          font-size: 14px;
+}d-color: #cc0000;
+}
+
+.article-buttons {
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.btn-back {
+    padding: 8px 16px;
+    backgroun
