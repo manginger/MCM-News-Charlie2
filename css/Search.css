@@ -25,9 +25,10 @@ article {
   border: none;
   padding: 0.6rem 1.4rem;
   border-radius: 6px;
-  font-size: 0.95rem; 
+  font-size: 0.95rem;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 button {
@@ -42,7 +43,7 @@ button {
 }
 
 button:hover {
-  background: #056fc7;
+  background: #ffee05;
 }
 
 article:hover {
@@ -55,4 +56,42 @@ article:hover {
           text-align: center;
           padding: 15px 30px;
           font-size: 14px;
+}
+
+.cog-wrapper {
+  position: relative;
+}
+
+.cog-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  background-color: #1a1a1a;
+  border: 2px solid #d22323;
+  border-radius: 6px;
+  padding: 6px;
+  z-index: 999;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 150px;
+}
+
+.cog-dropdown.open {
+  display: flex;
+}
+
+.filter-btn {
+  background: #2a2a2a;
+  text-align: left;
+  width: 100%;
+}
+
+.filter-btn.active {
+  background: #d22323;
+}
+
+.filter-btn:hover {
+  background: #ffee05;
+  color: #000;
 }
